@@ -1,0 +1,15 @@
+.table td, .table th {
+    border-top: 0px;
+}
+
+.table thead th {
+    border-bottom: 0px;
+}
+
+.bg-primary {
+    background-color: $primary-color !important;
+}
+
+.navbar-toggler {
+    color: white;
+}

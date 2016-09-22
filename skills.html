@@ -1,0 +1,46 @@
+---
+layout: page
+title: "Areas of Knowledge and Expertise"
+permalink: /skills/
+---
+
+<div class="table-responsive">
+    <table class="table table-sm table-striped table-hover m-b-0">
+
+        {% for cat in site.data.skills %}
+
+            <tr class="bg-primary">
+                <th colspan="4">
+                    <h3>{{ cat.name }}</h3>
+                </th>
+            </tr>
+            <tr class="bg-primary">
+                <th>Name</th>
+                <th class="hidden-xs-down">Versions</th>
+                <th>Categories</th>
+                <!--<th>Level</th>-->
+            </tr>
+
+            {% for skill in cat.skills %}
+
+            <tr>
+                <td><a href="{{ skill.link }}" target="_blank">{{ skill.name }}</td>
+                <td class="hidden-xs-down">{{ skill.versions }}</td>
+                <td>{{ skill.categories }}</td>
+                <!--<td>
+                    {% if skill.level < 33 %}
+                        Basic
+                    {% elsif skill.level < 66 %}
+                        Intermediate
+                    {% elsif skill.level >= 66 %}
+                        Expert
+                    {% endif %}
+                </td>-->
+            </tr>
+
+            {% endfor %}
+
+        {% endfor %}
+
+    </table>
+</div>

@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: 'Inconsolata', monospace;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+$background-color: #282C34;
+$text-color:       #fff;
+$primary-color:    #21252B;
+
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    background-color: $background-color;
+    color: $text-color;
+}
+.footer {
+    position: fixed; bottom: 0; left: 0; width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px; line-height: 48px; /* Vertically center the text there */
+    padding: .5rem 1rem;
+}
+
+// Import partials.
+@import
+    "bootstrap-overlap",
+    "animation-entry",
+    "blinking-cursor",
+    "typeit",
+    "syntax-highlighting"
+;

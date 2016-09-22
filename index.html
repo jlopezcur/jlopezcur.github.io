@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+<div class="home p-t-0">
+
+    <div class="table-responsive">
+        <table class="table table-sm table-striped table-hover m-b-0">
+            <thead class="bg-primary">
+                <tr>
+                    <th width="20"></th>
+                    <th class="typeit" data-typeit-whattotype="Article"></th>
+                    <th class="hidden-xs-down"></th>
+                    <th class="typeit hidden-xs-down" data-typeit-whattotype="Tags"></th>
+                    <th width="120" class="typeit" data-typeit-whattotype="Date"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for post in site.posts %}
+                    <tr>
+                        <td>
+                            {% for cat in post.categories %}
+                                {% case cat %}
+                                    {% when 'snippet' %}
+                                        s
+                                    {% else %}
+                                        p
+                                {% endcase %}
+                            {% endfor %}
+                        </td>
+                        <td><a class="post-link typeit" data-typeit-whattotype="{{ post.title | escape }}" href="{{ post.url | prepend: site.baseurl }}"></a></td>
+                        <td class="hidden-xs-down"></td>
+                        <td class="typeit" data-typeit-whattotype="{{ post.tags | array_to_sentence_string }}"></td>
+                        <td class="typeit" data-typeit-whattotype="{{ post.date | date: "%b %-d, %Y" }}"></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+            <thead class="bg-primary">
+                <tr>
+                    <th scope="row"></th>
+                    <th class="typeit" data-typeit-whattotype="Work"></th>
+                    <th class="typeit hidden-xs-down" data-typeit-whattotype="Client"></th>
+                    <th class="typeit hidden-xs-down" data-typeit-whattotype="Tags"></th>
+                    <th class="typeit" data-typeit-whattotype="Release Date"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for work in site.works reversed %}
+                    <tr>
+                        <td>
+                            {% for cat in work.categories %}
+                                {% case cat %}
+                                    {% when 'website' %}
+                                        w
+                                    {% when 'design' %}
+                                        d
+                                    {% when 'game' %}
+                                        g
+                                    {% when 'plugin' %}
+                                        p
+                                    {% when 'software' %}
+                                        s
+                                {% endcase %}
+                            {% endfor %}
+                        </td>
+
+                        <td>
+                            <a class="post-link typeit" style="display: inline-block;" data-typeit-whattotype="{{ work.title | escape }}" href="{{ work.url | prepend: work.baseurl }}"></a>
+                            {% if work.website %}<a href="{{ work.website }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
+                        </td>
+
+                        {% if work.clienturl %}
+                            <td class="hidden-xs-down">
+                                <a class="typeit" target="_blank" data-typeit-whattotype="{{ work.client | escape }}" href="{{ work.clienturl }}"></a>
+                            </td>
+                        {% else %}
+                            <td class="typeit hidden-xs-down" data-typeit-whattotype="{{ work.client | escape }}"></td>
+                        {% endif %}
+
+                        <td class="typeit" data-typeit-whattotype="{{ work.tags | array_to_sentence_string }}"></td>
+
+                        <td class="typeit" data-typeit-whattotype="{{ work.date | date: "%b %-d, %Y" }}"></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        For more information about other works you can <a href="{{ site.path }}/contact">contact me</a>.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</div>
+
+<div class="">
+
+</div>

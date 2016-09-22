@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body class="">
+
+        <div class="container-fluid p-a-0">
+
+            {% include menu.html %}
+
+            <div id="content" class="m-t-3 fade-in">
+              {{ content }}
+            </div>
+
+            <div class="m-t-3"></div>
+
+            {% include footer.html %}
+
+        </div>
+
+        {% include libs.html %}
+
+    </body>
+</html>

@@ -1,1 +1,0 @@
-jlopezcur.github.io

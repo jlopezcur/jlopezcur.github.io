@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Programming",
+        "skills": [
+            { "name": "Laravel", "link": "https://laravel.com/", "versions": "4/5", "level": 100, "categories": "php frameworks" },
+            { "name": "CakePHP", "link": "http://cakephp.org/", "versions": "2/3", "level": 100, "categories": "php frameworks" },
+            { "name": "CodeIgniter", "link": "https://www.codeigniter.com/", "versions": "2/3", "level": 100, "categories": "php frameworks" },
+            { "name": "Composer", "link": "https://getcomposer.org/", "versions": "*", "level": 100, "categories": "php-packages" },
+
+            { "name": "jQuery", "link": "https://jquery.com/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "jQuery Mobile", "link": "https://jquerymobile.com/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "jQuery UI", "link": "https://jqueryui.com/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "ExtJS", "link": "https://www.sencha.com/products/extjs/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "Backbone", "link": "http://backbonejs.org/", "versions": "*", "level": 100, "categories": "javascript framework" },
+            { "name": "Underscore", "link": "http://underscorejs.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "AngularJS", "link": "https://angularjs.org/", "versions": "1/2", "level": 100, "categories": "javascript" },
+            { "name": "VueJS", "link": "https://vuejs.org/", "versions": "*", "level": 100, "categories": "web-components" },
+            { "name": "React", "link": "https://facebook.github.io/react/", "versions": "*", "level": 60, "categories": "web-components" },
+            { "name": "Polymer", "link": "https://www.polymer-project.org", "versions": "*", "level": 60, "categories": "web-components" },
+
+            { "name": "ChartJS", "link": "http://www.chartjs.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "ChartistJS", "link": "https://gionkunz.github.io/chartist-js/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "D3", "link": "https://d3js.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+
+            { "name": "PaperJS", "link": "http://paperjs.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "Raphaël", "link": "http://dmitrybaranovskiy.github.io/raphael/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "ProcessingJS", "link": "http://processingjs.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "EaselJS", "link": "http://www.createjs.com/easeljs", "versions": "*", "level": 100, "categories": "javascript libraries" },
+            { "name": "ThreeJS", "link": "http://threejs.org/", "versions": "*", "level": 100, "categories": "javascript libraries" },
+
+            { "name": "Sass", "link": "http://sass-lang.com/", "versions": "*", "level": 60, "categories": "css-pre-processor" },
+            { "name": "Less", "link": "http://lesscss.org/", "versions": "*", "level": 60, "categories": "css-pre-processor" },
+            { "name": "CSS", "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets", "versions": "2/3", "level": 100, "categories": "css" },
+
+            { "name": "Bootstrap", "link": "http://getbootstrap.com/", "versions": "2/3/Alpha-4", "level": 100, "categories": "html-boilerplate" },
+            { "name": "HTML", "link": "https://es.wikipedia.org/wiki/HTML", "versions": "4/5", "level": 100, "categories": "html" },
+
+            { "name": "Electron", "link": "http://electron.atom.io/", "versions": "*", "level": 60, "categories": "desktop" },
+
+            { "name": "NodeJS", "link": "https://nodejs.org", "versions": "*", "level": 60, "categories": "javascript" },
+            { "name": "Express", "link": "https://expressjs.com/", "versions": "*", "level": 60, "categories": "javascript" },
+            { "name": "Grunt", "link": "http://gruntjs.com/", "versions": "*", "level": 60, "categories": "javascript task-runner" },
+            { "name": "Gulp", "link": "http://gulpjs.com/", "versions": "*", "level": 60, "categories": "javascript task-runner" },
+            { "name": "Elixir", "link": "https://laravel.com/docs/5.3/elixir", "versions": "*", "level": 100, "categories": "javascript task-runner laravel" },
+
+            { "name": "MySQL", "link": "https://www.mysql.com/", "versions": "*", "level": 100, "categories": "databases sql" },
+            { "name": "MariaDB", "link": "https://mariadb.org/", "versions": "*", "level": 100, "categories": "databases sql" },
+            { "name": "MongoDB", "link": "https://www.mongodb.com/", "versions": "*", "level": 80, "categories": "databases no-sql" },
+            { "name": "SQLite", "link": "https://www.sqlite.org/", "versions": "*", "level": 100, "categories": "databases no-sql" },
+
+            { "name": "Wordpress", "link": "https://wordpress.org/", "versions": "*", "level": 100, "categories": "cms" },
+            { "name": "Drupal", "link": "https://www.drupal.org/", "versions": "*", "level": 100, "categories": "cms" },
+            { "name": "OctoberCMS", "link": "https://octobercms.com/", "versions": "*", "level": 100, "categories": "cms laravel" },
+            { "name": "MediaWiki", "link": "https://www.mediawiki.org/", "versions": "*", "level": 100, "categories": "wiki" },
+            { "name": "DokuWiki", "link": "https://www.dokuwiki.org/", "versions": "*", "level": 100, "categories": "wiki" },
+
+            { "name": "Java", "link": "https://www.java.com/es/", "versions": "*", "level": 100, "categories": "language" },
+            { "name": "C/C++", "link": "https://es.wikipedia.org/wiki/C%2B%2B", "versions": "*", "level": 100, "categories": "language" },
+            { "name": "C#", "link": "https://es.wikipedia.org/wiki/C_Sharp", "versions": "*", "level": 100, "categories": "language" },
+            { "name": "Mono", "link": "http://www.mono-project.com/", "versions": "*", "level": 100, "categories": "language" },
+
+            { "name": "Python", "link": "https://www.python.org/", "versions": "*", "level": 100, "categories": "language" },
+            { "name": "PyGame", "link": "http://www.pygame.org/", "versions": "*", "level": 100, "categories": "python library" },
+            { "name": "Kivy", "link": "https://kivy.org/", "versions": "*", "level": 100, "categories": "python library" },
+
+            { "name": "Ruby", "link": "https://www.ruby-lang.org", "versions": "*", "level": 80, "categories": "language" },
+            { "name": "Ruby On Rails", "link": "http://rubyonrails.org/", "versions": "*", "level": 80, "categories": "language" },
+
+            { "name": "JavaDoc", "link": "https://es.wikipedia.org/wiki/Javadoc", "versions": "*", "level": 100, "categories": "doc-tool" },
+            { "name": "Doxygen", "link": "http://www.doxygen.org", "versions": "*", "level": 100, "categories": "doc-tool" },
+
+            { "name": "Jekyll", "link": "https://jekyllrb.com/", "versions": "*", "level": 100, "categories": "static-webpage" },
+
+            { "name": "Godot Engine", "link": "https://godotengine.org/", "versions": "*", "level": 100, "categories": "games-development" },
+            { "name": "Unity3D", "link": "https://unity3d.com/", "versions": "*", "level": 100, "categories": "games-development" },
+            { "name": "CreateJS", "link": "http://createjs.com/", "versions": "*", "level": 100, "categories": "javascript games-development" }
+
+        ]
+    },
+    {
+        "name": "System Administration",
+        "skills": [
+            { "name": "GNU/Debian", "link": "https://www.debian.org/", "versions": "*", "level": 100, "categories": "linux" },
+            { "name": "RedHat/Fedora", "link": "https://getfedora.org", "versions": "*", "level": 100, "categories": "linux" },
+
+            { "name": "Bash", "link": "https://www.gnu.org/software/bash/", "versions": "*", "level": 100, "categories": "scripting" },
+            { "name": "Python", "link": "https://www.python.org/", "versions": "*", "level": 100, "categories": "scripting" },
+
+            { "name": "Vagrant", "link": "https://www.vagrantup.com/", "versions": "*", "level": 100, "categories": "deployments" },
+            { "name": "Docker", "link": "https://www.docker.com/", "versions": "*", "level": 50, "categories": "deployments" },
+            { "name": "Deployer", "link": "http://deployer.org/", "versions": "*", "level": 100, "categories": "php deployments" },
+
+            { "name": "LAMP", "link": "https://es.wikipedia.org/wiki/LAMP", "versions": "*", "level": 100, "categories": "servers" },
+            { "name": "MEAN", "link": "http://mean.io/#!/", "versions": "*", "level": 100, "categories": "servers" }
+        ]
+    },
+    {
+        "name": "Graphic Design",
+        "skills": [
+            { "name": "Inkscape", "link": "https://inkscape.org", "versions": "*", "level": 100, "categories": "design vector" },
+            { "name": "Adobe Illustrator", "link": "http://www.adobe.com/es/products/illustrator.html", "versions": "*", "level": 100, "categories": "design vector" },
+
+            { "name": "Blender", "link": "https://www.blender.org/", "versions": "*", "level": 75, "categories": "3d video" },
+            { "name": "3D Studio Max", "link": "http://www.autodesk.es/products/3ds-max/overview", "versions": "*", "level": 80, "categories": "3d" },
+
+            { "name": "Synfig Studio", "link": "http://www.synfig.org/", "versions": "*", "level": 50, "categories": "animation" },
+
+            { "name": "Scribus", "link": "https://www.scribus.net/", "versions": "*", "level": 100, "categories": "publish" },
+            { "name": "Adobe InDesign", "link": "http://www.adobe.com/es/products/indesign.html", "versions": "*", "level": 100, "categories": "publish" },
+
+            { "name": "Adobe Premier", "link": "http://www.adobe.com/es/products/premiere.html", "versions": "*", "level": 50, "categories": "video" },
+            { "name": "Adobe After Effects", "link": "http://www.adobe.com/es/products/aftereffects.html", "versions": "*", "level": 50, "categories": "video" }
+        ]
+    },
+    {
+        "name": "Additional Knowledge",
+        "skills": [
+            { "name": "LibreOffice Suite", "link": "https://es.libreoffice.org/", "versions": "*", "level": 100, "categories": "office" },
+            { "name": "Microsoft Office", "link": "https://products.office.com/es-es/home", "versions": "*", "level": 100, "categories": "office" },
+
+            { "name": "VideoMapping", "link": "#", "versions": "*", "level": 50, "categories": "ra" },
+            { "name": "Augmented Reality", "link": "#", "versions": "*", "level": 50, "categories": "ra" }
+        ]
+    }
+]
