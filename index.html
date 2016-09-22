@@ -30,7 +30,7 @@ layout: default
                         </td>
                         <td><a class="post-link typeit" data-typeit-whattotype="{{ post.title | escape }}" href="{{ post.url | prepend: site.baseurl }}"></a></td>
                         <td class="hidden-xs-down"></td>
-                        <td class="typeit" data-typeit-whattotype="{{ post.tags | array_to_sentence_string }}"></td>
+                        <td class="hidden-xs-down typeit" data-typeit-whattotype="{{ post.tags | array_to_sentence_string }}"></td>
                         <td class="typeit" data-typeit-whattotype="{{ post.date | date: "%b %-d, %Y" }}"></td>
                     </tr>
                 {% endfor %}
@@ -78,7 +78,7 @@ layout: default
                             <td class="typeit hidden-xs-down" data-typeit-whattotype="{{ work.client | escape }}"></td>
                         {% endif %}
 
-                        <td class="typeit" data-typeit-whattotype="{{ work.tags | array_to_sentence_string }}"></td>
+                        <td class="hidden-xs-down typeit" data-typeit-whattotype="{{ work.tags | array_to_sentence_string }}"></td>
 
                         <td class="typeit" data-typeit-whattotype="{{ work.date | date: "%b %-d, %Y" }}"></td>
                     </tr>
